@@ -1,0 +1,4 @@
+qt/qt_libbitcoinqt_a-qrc_GoldenTrillionCash.o: \
+ qt/qrc_GoldenTrillionCash.cpp /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

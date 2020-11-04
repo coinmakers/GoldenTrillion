@@ -1,0 +1,26 @@
+# /etc/conf.d/GoldenTrillionCashd: config file for /etc/init.d/GoldenTrillionCashd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/GoldenTrillionCash/GoldenTrillionCash.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/GoldenTrillionCashd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/GoldenTrillionCashd.pid"
+
+# Where to write GoldenTrillionCashd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/GoldenTrillionCashd"
+
+# User and group to own GoldenTrillionCashd process
+#BITCOIND_USER="GoldenTrillionCash"
+#BITCOIND_GROUP="GoldenTrillionCash"
+
+# Path to GoldenTrillionCashd executable
+#BITCOIND_BIN="/usr/bin/GoldenTrillionCashd"
+
+# Nice value to run GoldenTrillionCashd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

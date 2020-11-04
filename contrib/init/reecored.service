@@ -1,0 +1,26 @@
+[Unit]
+Description=GoldenTrillionCash's distributed currency daemon
+After=network.target
+
+[Service]
+User=GoldenTrillionCash
+Group=GoldenTrillionCash
+
+Type=forking
+PIDFile=/var/lib/GoldenTrillionCashd/GoldenTrillionCashd.pid
+
+ExecStart=/usr/bin/GoldenTrillionCashd -daemon -pid=/var/lib/GoldenTrillionCashd/GoldenTrillionCashd.pid \
+          -conf=/etc/GoldenTrillionCash/GoldenTrillionCash.conf -datadir=/var/lib/GoldenTrillionCashd
+
+ExecStop=-/usr/bin/GoldenTrillionCash-cli -conf=/etc/GoldenTrillionCash/GoldenTrillionCash.conf \
+         -datadir=/var/lib/GoldenTrillionCashd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
