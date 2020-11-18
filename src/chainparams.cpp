@@ -155,12 +155,12 @@ public:
 
         nPoolMaxTransactions = 3;
         strSporkKey = "02dfbea67a4f4898feea5686dab729d1eb8a65119f39b739d2dbaf66067a8a9273";
-        strMasternodePoolDummyAddress = "SNeLgFkXpuMW4HvGxLzUfcLwgryvqKuhT6";
+        strMasternodePoolDummyAddress = "GTnXbDhXT6Q8Kt79jjr3iHdxP2tRKcruko";
         nStartMasternodePayments = genesis.nTime; 
 
         nBudget_Fee_Confirmations = 5; // Number of confirmations for the finalization fee
 
-        strTreasuryAddress = "ScMw2VFeVgob8Ronf6S4zupytJS6Yrgx7g"; // Empty Treasury Address = no Treasury
+        strTreasuryAddress = "Gc6zqn19DGVVgRqm6xyFFKS7MroSubdUYu"; // Empty Treasury Address = no Treasury
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
