@@ -43,6 +43,7 @@ POS Rewards:
 7001    -  14000:  0.25 coins
 14001   -  35000:  0.125 coins
 35001   -  70000:  0.06 coins
+70001   -  >>>  :  0.03 coins
 
 ```
 # Live nodes:
