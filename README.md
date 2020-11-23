@@ -47,10 +47,12 @@ POS Rewards:
 
 ```
 # Live nodes:
-addnode=161.97.126.154:22987
-addnode=161.97.83.43:22987
-addnode=213.136.79.18:22987
+```
+addnode=161.97.126.154:22987<br>
+addnode=161.97.83.43:22987<br>
+addnode=213.136.79.18:22987<br>
 addnode=62.171.137.56:22987
+```
 
 # GTR important links
 Wallets<br>
