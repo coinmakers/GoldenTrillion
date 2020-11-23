@@ -41,8 +41,16 @@ POS Rewards:
 21      -  3000:  1 coin
 3001    -  7000:  0.5 coins
 7001    -  14000:  0.25 coins
-14001   >  0.125 coins
+14001   -  35000:  0.125 coins
+35001   -  70000:  0.06 coins
+
 ```
+# Live nodes:
+addnode=161.97.126.154:22987
+addnode=161.97.83.43:22987
+addnode=213.136.79.18:22987
+addnode=62.171.137.56:22987
+
 # GTR important links
 Wallets<br>
 Linux daemon: https://github.com/coinmakers/GoldenTrillion/releases/download/2.0.0.0/GoldenTrillionCash-daemon-linux-18.zip<br>
