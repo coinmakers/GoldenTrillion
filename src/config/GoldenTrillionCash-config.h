@@ -293,10 +293,10 @@
 /* #undef QT_QPA_PLATFORM_WINDOWS */
 
 /* Define this symbol if the qt platform is xcb */
-/* #undef QT_QPA_PLATFORM_XCB */
+#define QT_QPA_PLATFORM_XCB 1
 
 /* Define this symbol if qt plugins are static */
-/* #undef QT_STATICPLUGIN */
+#define QT_STATICPLUGIN 1
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1

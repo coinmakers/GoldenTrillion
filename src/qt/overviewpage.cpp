@@ -552,25 +552,25 @@ void OverviewPage::on_pushButton_clicked()
 
 void OverviewPage::on_pushButton_2_clicked()
 {
-    QString link="https://goldentrillion.com/client/exchange/BTC/GTR";
+    QString link="https://erex.io/en/exchange/?pair=BTCGTR";
        QDesktopServices::openUrl(QUrl(link));
 }
 
 void OverviewPage::on_pushButton_3_clicked()
 {
-    QString link="https://discord.gg/yZCbNsF";
+    QString link="https://discord.gg/";
        QDesktopServices::openUrl(QUrl(link));
 }
 
 void OverviewPage::on_pushButton_4_clicked()
 {
-    QString link="https://twitter.com/StakeCenterco";
+    QString link="https://twitter.com/GoldenTrillion";
        QDesktopServices::openUrl(QUrl(link));
 }
 
 void OverviewPage::on_pushButton_5_clicked()
 {
-    QString link="http://explorer.goldentrillion.com:4444/";
+    QString link="http://161.97.126.154:3031/";
        QDesktopServices::openUrl(QUrl(link));
 }
 

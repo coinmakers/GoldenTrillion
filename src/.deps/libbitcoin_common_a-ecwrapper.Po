@@ -40,10 +40,11 @@ libbitcoin_common_a-ecwrapper.o: ecwrapper.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/bits/stl_bvector.h \
  /usr/include/c++/7/bits/functional_hash.h \
  /usr/include/c++/7/bits/range_access.h \
- /usr/include/c++/7/bits/vector.tcc /usr/include/openssl/ec.h \
- /usr/include/x86_64-linux-gnu/openssl/opensslconf.h \
- /usr/include/openssl/asn1.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/c++/7/bits/vector.tcc \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/ec.h \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/opensslconf.h \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/asn1.h \
+ /usr/include/time.h /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
  /usr/include/x86_64-linux-gnu/bits/timex.h \
@@ -57,7 +58,8 @@ libbitcoin_common_a-ecwrapper.o: ecwrapper.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/openssl/e_os2.h /usr/include/openssl/bio.h \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/e_os2.h \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/bio.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
@@ -68,9 +70,11 @@ libbitcoin_common_a-ecwrapper.o: ecwrapper.cpp /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/openssl/crypto.h /usr/include/c++/7/stdlib.h \
- /usr/include/c++/7/cstdlib /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/crypto.h \
+ /usr/include/c++/7/stdlib.h /usr/include/c++/7/cstdlib \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
@@ -84,25 +88,24 @@ libbitcoin_common_a-ecwrapper.o: ecwrapper.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
- /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/7/bits/std_abs.h /usr/include/openssl/stack.h \
- /usr/include/openssl/safestack.h /usr/include/openssl/opensslv.h \
- /usr/include/openssl/ossl_typ.h /usr/include/openssl/symhacks.h \
- /usr/include/openssl/bn.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h serialize.h \
- /usr/include/c++/7/algorithm /usr/include/c++/7/utility \
+ /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+ /usr/include/c++/7/bits/std_abs.h \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/stack.h \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/safestack.h \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/opensslv.h \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/ossl_typ.h \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/symhacks.h \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/bn.h \
+ serialize.h /usr/include/c++/7/algorithm /usr/include/c++/7/utility \
  /usr/include/c++/7/bits/stl_relops.h /usr/include/c++/7/bits/stl_algo.h \
  /usr/include/c++/7/bits/algorithmfwd.h \
  /usr/include/c++/7/bits/stl_heap.h /usr/include/c++/7/bits/stl_tempbuf.h \
@@ -113,6 +116,7 @@ libbitcoin_common_a-ecwrapper.o: ecwrapper.cpp /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h \
  /usr/include/c++/7/bits/char_traits.h /usr/include/c++/7/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -161,8 +165,12 @@ libbitcoin_common_a-ecwrapper.o: ecwrapper.cpp /usr/include/stdc-predef.h \
  /usr/include/c++/7/bits/invoke.h /usr/include/c++/7/bits/stl_multimap.h \
  /usr/include/c++/7/set /usr/include/c++/7/bits/stl_set.h \
  /usr/include/c++/7/bits/stl_multiset.h /usr/include/string.h \
- /usr/include/strings.h uint256.h /usr/include/c++/7/cstring \
- /usr/include/openssl/ecdsa.h /usr/include/openssl/obj_mac.h
+ /usr/include/strings.h \
+ /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+ /usr/include/x86_64-linux-gnu/bits/string_fortified.h uint256.h \
+ /usr/include/c++/7/cstring \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/ecdsa.h \
+ /home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/obj_mac.h
 
 /usr/include/stdc-predef.h:
 
@@ -270,11 +278,11 @@ ecwrapper.h:
 
 /usr/include/c++/7/bits/vector.tcc:
 
-/usr/include/openssl/ec.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/ec.h:
 
-/usr/include/x86_64-linux-gnu/openssl/opensslconf.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/opensslconf.h:
 
-/usr/include/openssl/asn1.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/asn1.h:
 
 /usr/include/time.h:
 
@@ -306,9 +314,9 @@ ecwrapper.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/openssl/e_os2.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/e_os2.h:
 
-/usr/include/openssl/bio.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/bio.h:
 
 /usr/include/stdio.h:
 
@@ -330,7 +338,11 @@ ecwrapper.h:
 
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
-/usr/include/openssl/crypto.h:
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/crypto.h:
 
 /usr/include/c++/7/stdlib.h:
 
@@ -368,6 +380,8 @@ ecwrapper.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/x86_64-linux-gnu/sys/sysmacros.h:
 
 /usr/include/x86_64-linux-gnu/bits/sysmacros.h:
@@ -380,39 +394,25 @@ ecwrapper.h:
 
 /usr/include/alloca.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/c++/7/bits/std_abs.h:
 
-/usr/include/openssl/stack.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/stack.h:
 
-/usr/include/openssl/safestack.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/safestack.h:
 
-/usr/include/openssl/opensslv.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/opensslv.h:
 
-/usr/include/openssl/ossl_typ.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/ossl_typ.h:
 
-/usr/include/openssl/symhacks.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/symhacks.h:
 
-/usr/include/openssl/bn.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h:
-
-/usr/include/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/bn.h:
 
 serialize.h:
 
@@ -453,6 +453,8 @@ serialize.h:
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/c++/7/bits/char_traits.h:
 
@@ -592,10 +594,14 @@ serialize.h:
 
 /usr/include/strings.h:
 
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
+
 uint256.h:
 
 /usr/include/c++/7/cstring:
 
-/usr/include/openssl/ecdsa.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/ecdsa.h:
 
-/usr/include/openssl/obj_mac.h:
+/home/debian/GTR/depends/x86_64-pc-linux-gnu/share/../include/openssl/obj_mac.h:
