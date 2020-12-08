@@ -61,7 +61,7 @@ https://github.com/coinmakers/GoldenTrillion/releases/download/2.0.0.0/GoldenTri
 Linux qt: 
 https://github.com/coinmakers/GoldenTrillion/releases/download/2.0.0.0/GoldenTrillionCash-qt-linux-18.zip<br>
 Windows qt 64 bit: 
-https://github.com/coinmakers/GoldenTrillion/releases/download/2.0.0.0/GoldenTrillionCash-qt.exe<br>
+https://github.com/coinmakers/GoldenTrillion/releases/download/2.0.0.0/GoldenTrillionCash-qt-Win64.zip<br>
 Website: 
 https://goldentrillion.com<br> 
 Block Explorer : 
