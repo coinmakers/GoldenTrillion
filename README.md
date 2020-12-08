@@ -41,16 +41,35 @@ POS Rewards:
 21      -  3000:  1 coin
 3001    -  7000:  0.5 coins
 7001    -  14000:  0.25 coins
-14001   >  0.125 coins
+14001   -  35000:  0.125 coins
+35001   -  70000:  0.06 coins
+70001   -  >>>  :  0.03 coins
+
 ```
+# Live nodes:
+```
+addnode=161.97.126.154:22987
+addnode=161.97.83.43:22987
+addnode=213.136.79.18:22987
+addnode=62.171.137.56:22987
+```
+
 # GTR important links
 Wallets<br>
-Linux daemon: https://goldentrillion.com/downloads/GoldenTrillionCash-daemon-Lin.zip<br>
-Linux qt: https://goldentrillion.com/downloads/GoldenTrillionCash-qt-Lin.zip<br>
-Windows qt 64 bit: https://goldentrillion.com/downloads/GoldenTrillionCash-qt-Win.rar<br>
-Website: https://goldentrillion.com<br> 
-Block Explorer : http://161.97.126.154:3031/<br> 
-Github : https://github.com/coinmakers/GoldenTrillion<br> 
-Official Twitter: https://twitter.com/GoldenTrillion<br> 
-Discord: https://discord.gg/RasstQ3YVP<br> 
+Linux daemon: 
+https://github.com/coinmakers/GoldenTrillion/releases/download/2.0.0.0/GoldenTrillionCash-daemon-linux-18.zip<br>
+Linux qt: 
+https://github.com/coinmakers/GoldenTrillion/releases/download/2.0.0.0/GoldenTrillionCash-qt-linux-18.zip<br>
+Windows qt 64 bit: 
+https://github.com/coinmakers/GoldenTrillion/releases/download/2.0.0.0/GoldenTrillionCash-qt.exe<br>
+Website: 
+https://goldentrillion.com<br> 
+Block Explorer : 
+http://161.97.126.154:3031/<br> 
+Github : 
+https://github.com/coinmakers/GoldenTrillion<br> 
+Official Twitter: 
+https://twitter.com/GoldenTrillion<br> 
+Discord: 
+https://discord.gg/RasstQ3YVP<br> 
 
